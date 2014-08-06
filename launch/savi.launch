@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="template_matcher" type="template_matcher_node" name="template_matcher_node" output="screen">
+		<param name="new_template_threshold" value="0.1"/>
+		<param name="acceptable_match_threshold" value="0.1"/>
+		<param name="image_topic" value="camera_forward/rgb/image_raw_throttle"/>
+	</node>
+</launch>
